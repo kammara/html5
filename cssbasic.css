@@ -1,0 +1,26 @@
+h1,p{
+    color: red;
+}
+ul{
+    color: blue;
+}
+.c1{
+    background-color: green;
+    text-shadow: 2px 2px blueviolet;
+}
+#d1{
+    font-size: 20px;
+
+
+}
+a{
+    color: green;
+}
+a:hover{
+    color: blue;
+}
+a:visited{
+    color: grey;
+    text-decoration: none;
+}
+

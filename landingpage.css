@@ -1,0 +1,56 @@
+.logo{
+    width: 200px;
+    margin-left: 2%;
+}
+.allmenu{
+    list-style: none;
+    float: right;
+}
+.eachmenu{
+    display: inline;
+    color: blue;
+    font-size: 130%;
+    margin-right: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.eachmenu:hover{
+    color: aqua;
+    border-bottom: 1px solid goldenrod;
+    transition: all 0.3s ease-in;
+    padding-bottom: 6px;
+}
+header{
+    background-image: linear-gradient(to right, 
+    rgba(255,255,255,1),
+    rgba(255,255,255,0)),
+    url(ibm.jpg);
+    height: 100vh;
+    background-position: center;
+    z-index: -800;
+}
+.mainMessage{
+    top: 50%;
+    position: absolute;
+   margin-right: 5%;
+    font-size: 200%;
+    color: brown;
+}
+.buttonContainer{
+    
+    margin-top: 15px;
+}
+.button{
+    text-decoration: none;
+    margin-right: 45px;
+    background-color: beige;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+.button:hover{
+    color: 100vh;
+    transition: all 0.3s ease-in;
+    background-color: antiquewhite;
+    padding: 5px;
+}

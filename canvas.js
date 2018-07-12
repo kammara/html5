@@ -1,0 +1,25 @@
+var mycanvas = document.getElementById("artboard")
+
+var canvas= mycanvas.getContext("2d")
+//canvas.moveTo(0, 0)
+//canvas.lineTo(400, 400)
+//canvas.stroke()
+//canvas.strokeText('Hello canvas',0,0)
+canvas.beginPath()
+canvas.arc(200,200,100,0,360,false)
+canvas.stroke()
+
+
+canvas.beginPath()
+canvas.arc(150,175,10,0,360,false)
+canvas.stroke()
+canvas.beginPath()
+canvas.arc(230,175,10,0,360,false)
+canvas.stroke()
+
+canvas.moveTo(200,200)
+canvas.lineTo(200,230)
+canvas.stroke()
+canvas.beginPath()
+canvas.arc(200,255,10,0,Math.PI,false)
+canvas.stroke()
